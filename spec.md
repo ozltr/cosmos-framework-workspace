@@ -1,0 +1,130 @@
+Some parts are formalised in [[cosmos-spec-v0221.md]]
+
+
+- [[Solo developer]]
+	- dont design for fifty people
+	- over abstraction becomes technical debt
+	- use managed services for simplicity
+		- drives cost though
+	- infrastructure as code!!!!!!!!!!!!
+	- design for observability, when something breaks you want clues
+	- docs, in six months you be glad for breadcrumbs
+	- secure by design
+		- least privilege IAM
+		- secrets management, also on edge
+	- proven tech and community support is lifeline for solo developer
+- Shareable with trusted people
+	- Onboarding routine and introduction material for trusted people
+	- Authentication, RBAC, Role assignment
+- my agent, name thunder
+	- ”I say flash” he responds ”thunder, how can I help”, 
+	- personal galaxy wingman agent, 
+	- voice controlled, 
+	- common defined language, protocols, 
+	- voice control, OpenAI/whisper?
+
+- universe spec, still evolving
+	- galaxy design spec
+		- bootstraper
+			- skill to create bootstraper
+			- skills to migrate to target code agent
+				- opencode
+				- pi.dev
+				- claude code
+				- codex
+		- centralized design spec for galaxy, portability
+		- centralized skill list, why is it listed there and what is it
+		- galaxy purpose and goal spec, what and why
+		- tagging system? relevant?
+	- galaxy watcher, present galaxy using UI
+		- web UI maybe overkill?
+		- mermaid in important directories?
+		- can we maybe use other visualization tools?
+
+- token economics
+	- target line reads as much as possible, to prevent wasteful file reads
+	- reduce looking for files as much as possible, to prevent wasteful exploring
+	- use skills-router.yaml or w/e, to prevent wasteful load of large unused skills
+	- - https://github.com/getagentseal/codeburn
+		- See where your AI coding tokens go.
+	- https://platform.openai.com/tokenizer
+		- calculate tokens
+	- perhaps move to pi for token reduction
+	- 18 claude code token hacks
+		- https://www.youtube.com/watch?v=49V-5Ock8LU
+
+- agent runtime, instructions & guardrails
+	- ethics
+	- communication
+		- DDD - domain driven design
+			- ubiquitous language
+		- /grill-me
+		- plan mode format
+	- conventions
+	- priorities
+	- mindfull
+		- token economics
+			- caveman
+			- i/o
+		- are we doing the right thing?
+			- decision council?
+		- for new initatives
+			- what is the goal?
+			- how do we frame it
+			- how do we execute it
+			- how do we track it
+		- context map
+
+- questions
+	- do we have several galaxies with clear scopes or large galaxies with many systems
+	- what is the end goal with all galaxies? what is it I want to achieve? is a galaxy perhaps an operating environment?
+	- shared wiki via git?
+	- personal library in git?
+		- packed with skills for it?
+	- can we have galaxies with shared git modules - like universal wikis
+		- skills to update these git repos
+	- maybe an universe inbox, where I can push content from all galaxies, no matter computer, via private git repo. then the inbox galaxy can have routing and push logic to other repos
+		- galaxies have their own git accounts or entities?
+		- can we track this somehow?
+
+- skills
+	- portable
+	- skill to update skills
+	- skill to project skills to coding agents
+	- when skill fails, iterates, gets it right, I can ask it to fix the skill so it prevents this failure again
+	- loadable skills
+		- https://github.com/mattpocock/skills/tree/main
+		- /grill-me
+	- skill to remind of checking skills tokens
+		- https://platform.openai.com/tokenizer
+	- workflow visualizer, turns process into visual map
+	- spec driven development
+		- https://github.com/obra/superpowers
+		- https://github.com/github/spec-kit
+		- what tool do we use
+		- integrate with decision council?
+
+- tooling
+	- git
+		- conventions
+		- branching strategy, important for new initatives
+		- allow/deny actions (no git push)
+	- changelog
+		- are there other normal standard files?
+	- github cli
+		- interesting with PR, issues, etc
+	- coding agents
+		- pi.dev
+		- opencode
+		- claudecode
+	- obsidian, more nice than vscode
+	- vscode, for code editing
+	- npm/npx for skills repo
+
+
+- galaxies
+	- Interesting git repo trackers, live feed showing latest releases and features
+		- Tools
+		- Skills
+		- Everything
+	- 
