@@ -1,5 +1,3 @@
-Some parts are formalised in [[cosmos-spec-v0221.md]]
-
 
 - [[Solo developer]]
 	- dont design for fifty people
@@ -40,6 +38,9 @@ Some parts are formalised in [[cosmos-spec-v0221.md]]
 		- web UI maybe overkill?
 		- mermaid in important directories?
 		- can we maybe use other visualization tools?
+	- galaxy statistics, inventory, size, more?
+	- galaxy calendar? universe calendar?
+		- integrate to personal, it must, otherwise not scalable since it will be out of date fast
 
 - token economics
 	- target line reads as much as possible, to prevent wasteful file reads
@@ -98,6 +99,12 @@ Some parts are formalised in [[cosmos-spec-v0221.md]]
 	- skill to remind of checking skills tokens
 		- https://platform.openai.com/tokenizer
 	- workflow visualizer, turns process into visual map
+	- AgentSkills, anthropic
+		- https://github.com/anthropics/skills/tree/main/skills
+	- claude skills, 232+ skills & agent plugins — engineering, marketing, product, compliance, C-level advisory
+		- https://github.com/alirezarezvani/claude-skills/tree/main
+	- borghei claude skills, 245 Claude Code skills & agent plugins — 653 Python tools, 32 agents, 26 slash commands 
+		- https://github.com/borghei/Claude-Skills
 	- spec driven development
 		- https://github.com/obra/superpowers
 		- https://github.com/github/spec-kit
@@ -105,6 +112,14 @@ Some parts are formalised in [[cosmos-spec-v0221.md]]
 		- integrate with decision council?
 
 - tooling
+	- rethinking agents, harness engineering
+		- Natural Language Agent Harness
+		- Meta-Harness
+		- autoharness
+		- AgentSpec
+	- Nvidia jatson nano
+	- Check phone pictures
+	- mermaid visualization
 	- git
 		- conventions
 		- branching strategy, important for new initatives
@@ -117,14 +132,32 @@ Some parts are formalised in [[cosmos-spec-v0221.md]]
 		- pi.dev
 		- opencode
 		- claudecode
+		- openclaw
+		- Nemoclaw
+		- Nanoclaw 
+		- https://github.com/ruvnet/ruflo
+		- https://github.com/WeaveMindAI/weft
+	- mcp
+		- context mode, https://github.com/mksglu/context-mode
+			- https://www.youtube.com/watch?v=QUHrntlfPo4
+		- 
+	- agents
+		- Episodic memories with schema knowledge graphs
+		- Entity relationships
+		- Deep sleep cycles?
+		- Human approval for work
+		- Super whisper, openwhisper?
 	- obsidian, more nice than vscode
 	- vscode, for code editing
 	- npm/npx for skills repo
 
 
-- galaxies
+- galaxies, ideas of new ones
 	- Interesting git repo trackers, live feed showing latest releases and features
 		- Tools
 		- Skills
 		- Everything
-	- 
+	- quantum computing galaxy
+		- https://pennylane.ai/qml/what-is-quantum-computing
+		- stock research
+			- https://www.avanza.se/hall-koll/bevakningslistor.html
