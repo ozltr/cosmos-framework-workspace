@@ -22,6 +22,13 @@
 	- voice control, OpenAI/whisper?
 
 - universe spec, still evolving
+	- make it more efficient
+		- hq, tracking tasks, replace
+			- use Jira, Excel or other solution with MCP
+		- wip-folder
+			- there is some context-map skill which looks more like a current task mapper which is a planning file, understanding the goal of the change and potentially affected files and why
+		- journal
+			- make it more slim, very slim
 	- galaxy design spec
 		- bootstraper
 			- skill to create bootstraper
